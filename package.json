@@ -1,0 +1,8 @@
+{
+  "name": "doWhile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AlexandreXYZ/doWhile.git",
+  "author": "Alexandre Costa Belettini <costaalexandre45@gmail.com>",
+  "license": "MIT"
+}
