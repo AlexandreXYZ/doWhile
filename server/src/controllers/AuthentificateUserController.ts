@@ -2,7 +2,7 @@ import {Request, Response} from "express"
 import AuthentificateUserService from "../services/AuthenticateUserService";
 
 export default class AuthentificateUserController{
-  async handle(request: Request, response){
+  async handle(request: Request, response: Response){
     const { code } = request.body;
     const service = new AuthentificateUserService();
     try{
