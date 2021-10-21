@@ -7,7 +7,7 @@ type Message = {
 	id: string,
 	text: string,
 	user: {
-		nome: string,
+		name: string,
 		avatar_url: string
 	}
 }
@@ -30,9 +30,9 @@ const MessageList = () => {
 					<p className={style.messageContent}>{messages.text}</p>
 					<div className={style.messageUser}>
 						<div className={style.userImage}>
-							<img src={messages.user.avatar_url} alt={messages.user.nome} />
+							<img src={messages.user.avatar_url} alt={messages.user.name} />
 						</div>
-						<span className={style.userName}>{messages.user.nome}</span>
+						<span className={style.userName}>{messages.user.name}</span>
 					</div>
 				</li>
 				)
