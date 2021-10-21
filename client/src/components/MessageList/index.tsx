@@ -18,7 +18,7 @@ const MessageList = () => {
 		api.get<Message[]>('messages/last3').then(response => {
 			setMessages(response.data);
 		})
-	}, [messages])
+	}, [])
 	
 	return(
     <div className={style.messageListWrapper}>
