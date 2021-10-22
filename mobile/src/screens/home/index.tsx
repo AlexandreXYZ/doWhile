@@ -7,7 +7,7 @@ export const Home = () => {
   
   return (
     <View style={style.container}>
-      <Text>Hello React Native!</Text>
+      <Text>Hello React Native!!</Text>
     </View>
   )
 }
